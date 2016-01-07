@@ -1,0 +1,15 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: genpass
+Source: https://github.com/chilicuil/genpass
+
+Files: *
+Copyright: Copyright © 2016, Javier P.L. <chilicuil@ubuntu.com>
+License: WTFPL-2+
+
+Files: debian/*
+Copyright: Copyright (c) 2014, Javier P.L. <chilicuil@ubuntu.com>
+License: WTFPL-2+
+
+License: WTFPL
+ On Debian systems, the text of the WTFPL-2+ License can be found in
+ '/usr/share/common-licenses/WTFPL-2'.

@@ -1,0 +1,21 @@
+Source: genpass
+Section: admin
+Priority: optional
+Maintainer: Javier P.L. <chilicuil@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.5)
+Standards-Version: 3.9.4
+Homepage: https://github.com/chilicuil/genpass
+
+Package: genpass
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Stateless password generator
+ Genpass is a stateless password generator based in two hash computation
+ levels. The algorithm uses a key derivation function specifically designed to
+ be computationally intensive on CPU, RAM and custom hardware attacks, scrypt.
+ .
+ Papers:
+ Two hash computation scheme
+ <https://www.cs.utexas.edu/%7Ebwaters/publications/papers/www2005.pdf> 
+ Key derivation via sequential memory-hard functions
+ <http://www.tarsnap.com/scrypt/scrypt.pdf>

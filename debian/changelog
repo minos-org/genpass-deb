@@ -1,0 +1,5 @@
+genpass (1:201601061756+git-3003b27minos) precise; urgency=low
+
+  * initial packaging
+
+ -- Javier P.L. <chilicuil@ubuntu.com>  Wed, 06 Jan 2016 17:57:23 -0600

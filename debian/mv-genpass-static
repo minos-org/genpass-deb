@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#workaroung for installing the static version
+
+#copy to a temporal directory and rename to avoid depending in dh-exec
+#for in the installation phase.
+[ -d ./static ] || mkdir static
+cp genpass-static static/genpass
+
+# vim: set ts=8 sw=4 tw=0 ft=sh :
