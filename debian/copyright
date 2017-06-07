@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: genpass
-Source: https://github.com/chilicuil/genpass
+Source: https://github.com/javier-lopez/genpass
 
 Files: *
-Copyright: Copyright © 2016, Javier P.L. <chilicuil@ubuntu.com>
+Copyright: Copyright © 2016, Javier López <m@javier.io>
 License: WTFPL-2+
 
 Files: debian/*
-Copyright: Copyright (c) 2014, Javier P.L. <chilicuil@ubuntu.com>
+Copyright: Copyright © 2016, Javier López <m@javier.io>
 License: WTFPL-2+
 
 License: WTFPL

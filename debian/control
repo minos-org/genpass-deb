@@ -1,10 +1,10 @@
 Source: genpass
 Section: admin
 Priority: optional
-Maintainer: Javier P.L. <chilicuil@ubuntu.com>
+Maintainer: Javier López <m@javier.io>
 Build-Depends: debhelper (>= 7.0.5)
 Standards-Version: 3.9.4
-Homepage: https://github.com/chilicuil/genpass
+Homepage: https://github.com/javier-lopez/genpass
 
 Package: genpass
 Architecture: any

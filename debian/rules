@@ -28,7 +28,7 @@ override_dh_auto_test:
 
 get-orig-source:
 	rm -rf debian/tmp; mkdir debian/tmp
-	cd debian/tmp; wget https://github.com/chilicuil/genpass/archive/${DEB_MASTER_VERSION}.tar.gz
+	cd debian/tmp; wget https://github.com/javier-lopez/genpass/archive/${DEB_MASTER_VERSION}.tar.gz
 	cd debian/tmp; tar xvzf ${DEB_MASTER_VERSION}.tar.gz
 	cd debian/tmp; mv genpass-* genpass-${DEB_UPSTREAM_VERSION}
 	cd debian/tmp; tar cvJf genpass_${DEB_UPSTREAM_VERSION}.orig.tar.xz genpass-${DEB_UPSTREAM_VERSION}
